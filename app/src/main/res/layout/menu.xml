@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:text="All"
+        android:id="@+id/button"
+        android:background="@drawable/bg"
+        android:textSize="50dp"
+
+        android:fontFamily="monospace"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:text="GOOD"
+        android:id="@+id/button2"
+android:background="@drawable/bg"
+        android:textSize="50dp"
+        android:fontFamily="monospace"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:text="BAD"
+        android:id="@+id/button3"
+        android:background="@drawable/bg"
+       android:textSize="50dp"
+
+        android:fontFamily="monospace"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:text="DECISION"
+        android:id="@+id/button4"
+android:background="@drawable/bg"
+        android:textSize="50dp"
+        android:fontFamily="monospace"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+
+</LinearLayout>

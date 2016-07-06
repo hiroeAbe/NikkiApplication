@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.abehiroe.nikkiapp2.MainActivity">
+    tools:context="com.example.abehiroe.nikkiapp2.MainActivity2">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -33,4 +33,3 @@
         android:src="@android:drawable/ic_input_add" />
 
 </android.support.design.widget.CoordinatorLayout>
-

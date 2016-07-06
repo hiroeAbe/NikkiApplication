@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/flowers1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textView5"
+        android:textSize="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.22" />
+
+    <Button
+        android:layout_width="314dp"
+        android:layout_height="98dp"
+        android:text="Daily"
+        android:fontFamily="monospace"
+        android:textSize="40dp"
+        android:id="@+id/button"
+        android:background="#ffb6c1"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="314dp"
+        android:layout_height="98dp"
+        android:text="tweet"
+        android:textSize="40dp"
+        android:background="#f0f8ff"
+
+        android:fontFamily="monospace"
+        android:id="@+id/tweetBt"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
