@@ -41,7 +41,7 @@ android:background="@drawable/bg"
         android:layout_weight="0.05" />
     <Button
         android:layout_width="match_parent"
-        android:layout_height="220dp"
+        android:layout_height="225dp"
         android:text="DECISION"
         android:id="@+id/button4"
 android:background="@drawable/bg"

@@ -114,4 +114,15 @@
         android:layout_alignParentEnd="true"
         android:background="#ffc8c8"
         android:onClick="onDeleteTapped" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:background="@drawable/tweet"
+        android:id="@+id/tweet"
+        android:onClick="onTweetTapped"
+        android:layout_below="@+id/decisionEdit"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>
